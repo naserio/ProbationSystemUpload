@@ -11,9 +11,9 @@ export class authenticateS3 {
   s3Access(){
     
       const bucket = new S3({
-        accessKeyId: 'AKIA23ODCK2YM765OYE4', // ACCESS_KEY_ID
-        secretAccessKey: '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', // SECRET_ACCESS_KEY
-        region: 'us-east-1', // BUCKET_REGION
+        accessKeyId: '', // ACCESS_KEY_ID
+        secretAccessKey: '', // SECRET_ACCESS_KEY
+        region: '', // BUCKET_REGION
       });
       return bucket;
 
